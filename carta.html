@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05 anos!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Trad:wght@100..400&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="carta.css">
+</head>
+
+<body>
+    <h1>Minha Jéssica,</h1>
+    <br><br>
+    <p>Como é bom viver a vontade de Deus! Como é bom sentir, com a própria vida, que ao confiar e esperar
+    no Senhor, Este mesmo revela a sua imensa bondade e Graça no silêncio da vida cotidiana, e revela as sutis
+    evidências do Seu Grandioso Amor!
+    </p>
+    <p>E como um Pai maravilhoso, realizou na minha vida, naquele ano de 2010, o maior milagre que poderia
+    receber. 
+    </p>
+    <p class="citacao">
+        <me>"Feliz o homem que tem uma boa mulher, pois se duplicará o número de seus anos. A mulher 
+        <strong>forte</strong> faz a <strong>alegria</strong> de seu marido, e derramará paz nos
+        anos de sua vida. É um bom quinhão uma mulher <strong>bondosa</strong>; no quinhão daqueles
+        que tem a Deus, ela será dada a um homem pelas suas boas ações. Rico ou pobre, o seu marido tem
+        o coração satisfeito, e seu rosto reflete <strong>alegria</strong> em todo o tempo.
+        A graça de uma mulher <strong>cuidadosa</strong> <strong>rejubila</strong> seu marido, e seu bom 
+        comportamento revigora os ossos. É um <strong>dom de Deus</strong> uma mulher sensata e silenciosa,
+        e nada se compara a uma mulher <strong>bem-educada</strong>. A mulher <strong>santa e honesta</strong> é uma 
+        <strong>graça inestimável</strong>; não há peso para pesar o valor de uma <strong>alma casta</strong>. 
+        Assim como o sol que se levanta nas alturas de Deus, <strong>assim é a beleza de uma mulher
+        honrada</strong>, ornamento de sua casa. Como a lâmpada que brilha no candelabro sagrado, assim
+        é a beleza do rosto na idade madura. Como colunas de ouro sobre alicerces de prata, <strong>são
+        as pernas formosas sobre calcanhares firmes</strong>. Como fudamentos eternos sobre pedra firme,
+        <strong>assim são os preceitos divinos no coração de uma mulher santa</strong>." (Eclesiastico, 26)</me>
+    </p>
+    <p>E é assim a minha vida a partir do dia que conversamos na escada. E a cada dia que passa, experimento ainda mais as
+    promessas desta passagem na minha vida. Mesmo diante as inconstâncias dos dias, dos humores, dos problemas, 
+    das enfermidades, dos pecados, das brigas, das insatisfações, algo não consigo negar de forma alguma: VOCÊ É 
+    A MINHA MAIOR ALEGRIA! Não sei se é errado, mas as suas virtudes, como estão expressas nessa passagem, me fazem
+    ter dias, meses e anos maravilhosos ao seu lado! E essas virtudes, que são suas, confiadas por Deus, são 
+    exclusivamente suas, e ninguém mais consegue exercê-las como você, com o seu modo próprio de exercê-las. 
+    </p>
+    <p>A sua <strong>força</strong> diante as dificuldades, de todos os tipos e origens. O seu coração 
+    <strong>bondoso</strong>, que luta em sempre querer e fazer o bem, extritamente pelo outro (inclusive por mim
+    e pela nossa família). O seu <strong>cuidado</strong> tão amoroso por mim e pelas nossas filhas, todos os dias
+    nos pequenos detalhes. A sua <strong>sensatez</strong>, que sempre cuida de dizer aquilo que nos edifica. Sua 
+    excelente <strong>educação</strong>, que torna as nossas conversas sempre muito agradáveis com suas palavras suaves. 
+    A sua <strong>castidade</strong>, que nunca conduziu o nosso casamento pelas trilhas da imundície, como o mundo dita. 
+    E tudo isso traz para você a beleza própria de uma <strong>mulher honrada</strong>.
+    </p>
+    <p>Neste aniversário de casamento de 2025, queria dizer o quanto 
+    você faz a minha vida feliz, sendo somente você, do jeitinho que você é. Que você é a fonte e a motivação de todos
+    os meus/nossos momentos felizes. Que não vejo sentido ao imaginar viver longe do seu lado. Que estar casado com você,
+    para mim, é cada dia melhor!
+    </p>
+    <p>Peço ao Senhor neste dia, com a intercessão da Virgem do Perpétuo Socorro e o auxílio dos Santos Anjos, a graça
+    de permanecermos sempre juntos. Se possível, progredindo nesta mesma alegria que o Senhor nos dá através do Espírito
+    Santo. Quero pedir ao Senhor a graça do amor, do respeito e da fidelidade que prometemos diante dEle na tarde daquele 
+    dia 27 de junho. Ainda, a saúde, a proteção, as Graças e Virtudes necessárias para vivermos santamente o matrimônio, e
+    santificarmos, assim, também aos nossos filhos com o nosso exemplo e oração. Amém!
+    </p>
+    <p>Eu amo você!</p>
+    <p>Thiago.</p>
+        
+    <audio id="audioDeFundo" loop>
+        <source src="Sagrado Coração.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio HTML5.
+    </audio>
+
+    <script>
+        const audio = document.getElementById('audioDeFundo');
+        let tocando = false;
+
+        document.body.addEventListener('click', () => {
+            if (!tocando) {
+            audio.volume = 0.2;
+            audio.play().then(() => {
+                tocando = true;
+                console.log("Música tocando");
+            }).catch((e) => {
+                console.error("Erro ao tentar tocar o áudio:", e);
+            });
+            }
+        });
+    </script>
+    
+</body>
+
+
+
+
+</html>
